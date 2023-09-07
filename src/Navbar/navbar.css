@@ -1,0 +1,26 @@
+.nav_container{
+    height: 6rem;
+    background-color: #645cff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+}
+.cart_icon{
+    position: relative;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+.item_no_container{
+    background-color: #9894d8;
+    border-radius: 1000px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    clip-path: circle();
+}
+.svg{
+    width: 2.2rem;
+}
